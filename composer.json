@@ -1,0 +1,29 @@
+{
+    "name": "hectorqin/thinkphp-generator",
+    "description": "Generate model,controller,validate with parsing database.",
+    "type": "think-extend",
+    "version": "0.0.2",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "hector",
+            "email": "hectorqin@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "think\\generator\\": "src"
+        },
+        "files": [
+          "src/helper.php"
+        ]
+    },
+    "require": {
+        "topthink/framework": "5.1.*"
+    },
+    "extra": {
+        "think-config": {
+            "generator": "src/config.php"
+        }
+    }
+}
