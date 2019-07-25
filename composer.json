@@ -2,7 +2,6 @@
     "name": "hectorqin/thinkphp-generator",
     "description": "Generate model,controller,validate with parsing database.",
     "type": "think-extend",
-    "version": "0.0.2",
     "license": "Apache-2.0",
     "authors": [
         {
